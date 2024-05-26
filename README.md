@@ -12,17 +12,33 @@ Welcome to **Asta Md**, an open-source WhatsApp bot developed by Astro. This bot
 - **API Integration**: Seamlessly integrate with other APIs to expand functionality.
 
 ## Getting Started
+### Get Your Session
+#### Please Star Our Repo For Courage ❤️
+
+This is Important To Run Your Bot
+
+<a href="https://web-session.vercel.app/"><img title="SCAN QR" src="https://img.shields.io/badge/GET SESSION-h?color=black&style=for-the-badge&logo=msi"></a>
+
+<a href="https://github.com/Astropeda/Asta-Md/fork"><img title="Fork Repo" src="https://img.shields.io/badge/Fork Repo-h?color=black&style=for-the-badge&logo=stackshare"></a>
+
+
 
 ### Prerequisites
 
-Before you begin, ensure you have the following:
+For Advanced Users, make sure you have the following:
 
 - Node.js (version 16 or higher)
 - npm (Node Package Manager)
+- Star & Fork Repo
+- Get Your Session ID
+- Put Your Session ID in `config.js` file
 
 ### Installation
 
-1. Clone the repository:
+##### For Example
+
+
+1. Clone Your Forked Repository:
     ```sh
     git clone https://github.com/astro/asta-md.git
     cd asta-md
@@ -34,7 +50,7 @@ Before you begin, ensure you have the following:
     ```
 
 3. Configure the bot:
-    - Rename `.env.example` to `.env` and fill in your WhatsApp credentials.
+    - Rename `.env.example` to `.env` and fill in your WhatsApp credentials (Only If you Didn't Config It Eariler).
 
 4. Start the bot:
     ```sh
@@ -47,8 +63,7 @@ Once the bot is running, it will automatically connect to WhatsApp and start han
 
 ## Adding Commands
 
-To add a new command:
-##### Learn how to Create commands? Click Me
+#### To create your custom new command:
 
 1. Create a new file in the `plugins` directory, for example `hi.js`.
 2. Define the command logic using the following template:
@@ -75,38 +90,13 @@ To add a new command:
 
 ### Heroku
 
-#### Using Heroku CLI
-
-1. Install the Heroku CLI:
-    ```sh
-    npm install -g heroku
-    ```
-
-2. Log in to your Heroku account:
-    ```sh
-    heroku login
-    ```
-
-3. Create a new Heroku app:
-    ```sh
-    heroku create
-    ```
-
-4. Push your code to Heroku:
-    ```sh
-    git push heroku main
-    ```
-
-5. Set up environment variables on Heroku:
-    ```sh
-    heroku config:set SESSION_ID=Astro;;;
-    ```
-
 #### Heroku Docker Delpoy
+
+#### `fixed heroku issues`
 
 <a href="https://astropeda.github.io/delpoy-button/">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
+</a> 
 
 ### VS Code Spaces
 
@@ -173,7 +163,7 @@ We welcome contributions from the community! To contribute, please follow the gu
 
 ## License
 
-Asta Md is released under the [Unlicense](https://github.com/Astropeda/Asta-Md/blob/main/LICENSE).
+Asta Md is released under the [GNU General Public License v2.0](https://github.com/Astropeda/Asta-Md/blob/main/LICENSE).
 
 ## Contact
 
